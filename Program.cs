@@ -7,6 +7,7 @@ namespace TodoAPI
     {
         public static void Main(string[] args)
         {
+			//add lab#2
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -25,7 +26,7 @@ namespace TodoAPI
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+			
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
